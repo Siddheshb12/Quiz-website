@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div id="box">
+            <h2 id="queBox">dummy question</h2>
+            
+            
+            <div class="row">
+                <input class="options" id="a" type="radio" value="a" name="option">
+                <label for="a"></label>
+            </div>
+            <div class="row">
+                <input class="options" id="b" type="radio" value="b" name="option">
+                <label for="b"></label>
+            </div>
+            <div class="row">
+                <input class="options" id="c" type="radio" value="c" name="option">
+                <label for="c"></label>
+            </div>
+            <div class="row">
+                <input class="options" id="d" type="radio" value="d" name="option">
+                <label for="d"></label>
+            </div>
+            
+            <div class="btn">
+                <button id="prev"onclick="prev()">
+                    Prev
+                </button>
+                
+                <button id="next" onclick="next()">
+                    Next
+                </button>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
